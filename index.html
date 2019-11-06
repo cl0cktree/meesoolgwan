@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style_main.css" />
+		<!-- 제이쿼리 라이브러리 호출 S -->
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<!--// 제이쿼리 라이브러리 호출 E -->
+<!-- 		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script> -->
+		<script type="text/javascript" src="js/scroller_roll.js"></script>
+		<script type="text/javascript" src="js/ui.js"></script>
+	 	<script type="text/javascript" src="js/main.js"></script>
+		<title>맛있는 술집 - 미술관 입니다.</title>
+	</head>
+	<body>
+		<header>
+		<div id="" class="over">
+			<img src="images/over.jpg" width="802" height="782" border="0" alt="">
+		</div>
+		<div id="" class="backl"></div>
+		<div id="" class="backl2"></div>
+		<div id="" class="backr"></div>
+		<div id="" class="backr2"></div>
+		<div id="" class="bodyimg1">
+				<img src="images/food1.png" width="306" height="405" border="0" alt="">
+		</div>
+		<div id="" class="topbar">
+		</div>
+		<div id="skipm" class="">
+			<div id="" class="st">
+				<a href="#wrapm">메인 바로가기</a>
+			</div>
+		</div>
+		<div id="skipg" class="">
+			<div id="" class="st">
+				<a href="#gnb">메뉴 바로가기</a>
+			</div>
+		</div>
+		<div id="" class="logo">
+			<a href="index.html"><img src="images/bi.png" width="317" height="84" border="0" alt=""></a>
+		</div>
+		<div id="" class="movebar"></div>
+		<div id="" class="topimg">
+			<img src="images/mainimg1.jpg" width="1110" height="370" border="0" alt="">
+			
+			<img src="images/mainimg2.jpg" width="1110" height="370" border="0" alt="">
+			
+			<img src="images/mainimg3.jpg" width="1110" height="370" border="0" alt="">
+		</div>
+
+
+	<script type="text/javascript">
+		
+		var showImg, nextImg ;
+		function fadeInOut(){
+			
+			showImg = $('.topimg img:eq(0)');
+			nextImg = $('.topimg img:eq(1)');
+			nextImg.addClass('first');
+			nextImg.css('opacity','0').animate({'opacity':'1'},1000,
+			function(){
+			$('.topimg').append(showImg);
+			showImg.removeClass('first');});
+		
+		};
+			
+			var timer = setInterval('fadeInOut()','3000');
+			
+			$("div.topimg").hover(
+				function(){
+					clearInterval(timer)
+			},function(){
+					timer = setInterval('fadeInOut()','2000');
+			});
+
+	</script>
+		<div id="wrap">
+			<ul id="gnb">
+				<li class="sub_01"><a href="sub/brand1.html">맛있는 술집</a>
+					<ul>
+						<li><a href="sub/brand1.html">브랜드소개</a></li>
+						<li><a href="sub/brand2.html">BI</a></li>
+						<li><a href="sub/brand3.html">오시는 길</a></li>
+					</ul>
+				</li>
+				<li class="sub_02"><a href="sub/menu1.html">메뉴소개</a>
+					<ul>
+						<li><a href="sub/menu1.html">맥주</a></li>
+						<li><a href="sub/menu2.html">안주</a></li>
+
+					</ul>
+				</li>
+				<li class="sub_03"><a href="sub/shop.html">매장안내</a></li>
+				<li class="sub_04"><a href="sub/chang1.html">창업안내</a>
+					<ul>
+						<li><a href="sub/chang1.html">개설절차</a></li>
+						<li><a href="sub/chang2.html">개설안내</a></li>
+					</ul>
+				</li>
+				<li class="sub_05"><a href="sub/notice.html">고객과 소통</a>
+					<ul>
+						<li><a href="sub/notice.html">공지사항</a></li>
+						<li><a href="sub/customer.html">고객센터</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<section>
+		<article>
+			<div id="wrapm" class="">
+				<div id="" class="upimg">
+
+			<div id="" class="bodyimg2">
+				<img src="images/bbs_tt1.png" width="94.8" height="36" border="0" alt="">
+			</div>
+			<div id="" class="bodyimg3">
+				<img src="images/bbs_tt2.png" width="70.8 " height="24" border="0" alt="">
+			</div>
+			<div id="" class="bodyimg4">
+				<a href="sub/chang1.html"><img src="images/main_inquiry.png" width="386" height="158" border="0" alt=""></a>
+			</div>
+				<div id="" class="link1">
+					<ul>
+						<li><a href="#">2016.03.11 - 15 일상</a></li>
+						<li><a href="#">[서울 서초동] 미술관 교대점 점심메뉴</a></li>
+						<li><a href="#">영주사과와 삼겹살이 만나, 영주시 ‘애플..</a></li>
+					</ul>
+				</div>
+				<div id="" class="link2">
+					<ul>
+						<li><a href="#">2016년 동네 미술관 봄 신메뉴 출시!</a></li>
+						<li><a href="#">2016년 여기 미술관 봄 신메뉴 출시!</a></li>
+						<li><a href="#">미술관 겨울 신메뉴 출시 !</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="" class="midimg">
+				<div id="" class="midimg1">
+					<a href="sub/menu2.html"><img src="images/cover1.png"  height="220" border="0" alt=""></a>			
+				</div>
+					
+				<div id="" class="midimg2">
+					<a href="sub/shop.html"><img src="images/cover2.png"  height="220" border="0" alt=""></a>
+				</div>
+				
+				<div id="" class="midu">
+					<img src="images/food2.png" width="272" height="314.4" border="0" alt="">
+				</div>
+			
+				<div id="" class="here">
+					<div id="" class="shopimg">
+						<img src="images/sfind_img.png" width="253.2" height="127.8" border="0" alt="">
+					</div>
+					
+					<div id="" class="find">
+						<img src="images/sfind_tt.png" width="273" height="47.6" border="0" alt="">
+					</div>
+					
+					<div id="" class="findicon">
+						<button>
+						<img src="images/find.jpg" width="22" height="22" border="0" alt="">
+						</button>
+					</div>
+					<div id="" class="box">
+						<input type="text" name="" id="" cols="30" rows="20">
+					</div>
+				</div>
+			</div>
+
+			<div id="" class="downimg">
+				<div id="" class="downimg1">
+					<img src="images/b2.png" width="330" height="195" border="0" alt="">
+				</div>
+				<div id="" class="downimg2">
+					<img src="images/b1.png" width="161" height="264" border="0" alt="">
+				</div>
+				<div id="" class="downimg3">
+					<img src="images/explain_tt.png" width="275" height="85" border="0" alt="">
+				</div>
+				<div id="" class="downtext">
+					<p>
+					미술관은 장사를 정말 잘하는 기업, 제대로 된 브랜드를 잘<br>
+					만들어내는 기업입니다.<br>
+					외식브랜드는 물론, 다양한 주점브랜드까지 소형 평수부터<br>
+					대형 평수까지 직영 운영하고 있으며, 들어가는 상권마다 성공 가도를<br>
+					달리고 있습니다.<br>
+					</p>
+					<p>
+					이제, 다년간의 직영점 운영 성공 경험을 바탕으로 성공 창업을 꿈꾸시는<br>
+					예비창업자에게 힘이 될 수 있는 브랜드를 내놓고자 합니다.<br>
+					</p>
+					<p>
+					미술관은 이미 여러 개의 직영점 운영을 통해 철저하게 검증을<br>
+					거친 브랜드입니다.
+					당사 임직원들은 다년간 쌓아온 장사 노하우 및 매장 운영 관리 노하우를<br>
+					바탕으로 창업을 준비하시는 예비창업자님이 보다 성공적으로<br>
+					창업하실 수있도록 전사적인 지원을 아끼지 않을 것을 약속 드립니다.<br>
+					미술관을 통해 성공 창업의 꿈을 이루시길 바랍니다. <br>
+					</p>				
+				</div>
+			<a href="index.html" class="topb">top＾</a>
+			</div>
+			<div id="" class="downf">
+				<div id="down" class="down">
+					 <ul>
+						<li><a href="#" title="title1"><img src="images/bot01.jpg" width="306" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title2"><img src="images/bot02.jpg" width="612" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title3"><img src="images/bot03.jpg" width="306" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title4"><img src="images/bot04.jpg" width="612" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title5"><img src="images/bot05.jpg" width="306" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title6"><img src="images/bot06.jpg" width="612" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title7"><img src="images/bot07.jpg" width="306" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title8"><img src="images/bot08.jpg" width="612" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title9"><img src="images/bot09.jpg" width="306" height="306" border="0" alt=""></a></li>
+						<li><a href="#" title="title10"><img src="images/bot10.jpg" width="612" height="306" border="0" alt=""></a></li>
+					 </ul>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div id="" class="foot"></div>
+			<div id="" class="add">
+				주식회사 디딤 대표이사 : 이범택 인천광역시 남동구 논현동 642-4 전화 : 1899-6096 팩스 : 032-815-6870<br>
+				COPYRIGHT(C)2013 (유)디딤푸드 ALL RIGHTS RESERVED.
+			</div>
+			<div id="" class="footimg">
+				<a href="index.html"><img src="images/foot_ci.png" width="173" height="43" border="0" alt=""></a>
+			</div>
+
+	</footer>
+	</body>
+</html>

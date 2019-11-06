@@ -1,0 +1,246 @@
+body{
+	background-image:url("../images/back1.jpg");
+}
+
+.over {
+	margin-left:50%;
+	top:450px;
+	left:-250px;
+	position:absolute;
+}
+
+.topbar {
+	width:200%;
+	height:100px;
+	background-image:url('../images/subtop.jpg');
+	top:0px;
+	position:absolute;
+}
+
+.movebar{
+	width:200%;
+	height:0px;
+	background-color:rgba(250,250,250,0.7);
+	top:100px;
+	position:absolute;
+}
+
+.gra {
+	width:164px;
+	height:1200px;	
+	background-image:url('../images/subback.png');
+	margin-left:50%;
+	left:-500px;
+	top:100px;
+	position:relative;	
+}
+
+#sml {
+	
+	left:-90px;
+	top:-1020px;
+	/* position:absolute; */
+	position:relative;	
+}
+
+#sml2 {
+	
+	left:-25px;
+	top:-1100px/* 150px */;
+/* 	position:absolute; */
+	position:relative;
+}
+
+section .wrap2 {
+	margin:0 auto;
+	width:1000px;
+	height:100%;
+}
+
+.menu {
+	margin-left:50%;
+	top:250px;
+	left:-550px;
+	position:absolute;
+}
+
+.menu li{
+	text-align:right;
+	font-size:22px;
+	font-weight:bold;
+	margin:15px;
+}
+
+.menu li a:link{
+	text-align:right;
+	font-size:22px;
+	font-weight:bold;
+	color:#333;
+	}
+
+.menu li a:hover{
+	text-align:right;
+	font-size:22px;
+	font-weight:bold;
+	color:#ff0000;
+	}
+
+.popimg1 {
+	margin-left:50%;
+	top:150px;
+	left:-330px;
+	position:absolute;	
+}
+
+.popimg2 {
+	margin-left:50%;
+	top:150px;
+	left:-80px;
+	position:absolute;	
+}
+
+.popimg3 {
+	margin-left:50%;
+	top:280px;
+	left:150px;
+	position:absolute;	
+}
+
+.popimg4 {
+	margin-left:50%;
+	top:150px;
+	left:380px;
+	position:absolute;	
+}
+
+.popimg5 {
+	margin-left:50%;
+	top:420px;
+	left:-220px;
+	position:absolute;	
+}
+
+.popimg6 {
+	margin-left:50%;
+	top:450px;
+	left:400px;
+	position:absolute;	
+}
+
+.popimg7 {
+	margin-left:50%;
+	top:350px;
+	left:-55px;
+	position:absolute;	
+}
+
+
+.beerlist {
+	width:800px;
+	height:420px;
+	/* border:1px solid red; */
+	border-top:1px solid #072138;
+	margin-left:50%;
+	top:600px;
+	left:-300px;
+	position:absolute;
+}
+
+.btt1 {
+	font-family:"맑은 고딕";
+	font-size:17px;
+	font-weight:bold;
+}
+
+#beer1 {
+	margin-top:10px;
+	margin-bottom:10px;
+	width:800px;
+	border-bottom:1px solid #072138;
+	float:left;
+}
+
+#beerimg{
+	/* border:5px solid red; */
+	float:left;
+}
+
+.bt1 {
+	margin-left:50px;
+	margin-top:25px;
+	font-family:"맑은 고딕";
+	font-size:13px;
+	/* border:1px solid red; */
+	float:left;
+}
+
+.backu{
+	width:200%;
+	height:421px;
+	background-image:url('../images/back5-1.jpg');
+	left:-500px;
+	top:-70px;
+	position:absolute;
+}
+
+.backd{
+	width:200%;
+	height:123px;
+	background-image:url('../images/back4-1.jpg');
+	left:-500px;
+	top:1200px;
+	position:absolute;	
+}
+
+
+.logo {
+	margin-left:50%;
+	left:-690px;
+	top:10px;
+	position:absolute;		
+}
+
+
+
+
+#gnb{width:950px; height:60px; margin-left:-330px; top:35px; left:50%;  position:absolute;}
+
+footer {
+	width:1100px;
+	height:100px;
+	margin-left:50%;
+	/*top:1700px;*/
+	left:-550px;
+	position:absolute;
+	font-family:"돋움";
+	font-size:13px;
+	font-weight:bold;
+	color:#ddd;
+}
+
+.foot {
+	width:20000%;
+	height:100px;
+	background:#131d27;
+	left:-10000%;
+	position:absolute;	
+}
+
+
+.add {
+	/* margin-left:50%; */
+	left:100px;
+	top:40px;
+	position:relative;	
+}
+
+.footimg {
+	/* margin-left:50%; */
+	left:800px;
+	/* top:px; */
+	position:relative;
+}
+
+
+
+
